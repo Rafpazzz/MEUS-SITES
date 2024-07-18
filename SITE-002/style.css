@@ -79,7 +79,7 @@ section > p{
     background-image: url('imagens/background001.jpg');
     background-attachment: fixed;
     background-size: cover;
-    background-position: right center;
+    background-position: center center;
 
     padding-top: 20px;
     padding-bottom: 20px;
