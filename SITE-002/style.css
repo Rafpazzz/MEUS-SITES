@@ -6,7 +6,9 @@
 }
 
 body{
-    background-color: white;
+    background-color: darkgray;
+    min-height: 100vh;
+
 }
 
 header{
@@ -19,75 +21,121 @@ header{
 header > h1{
     font-family: cursive, sans-serif;
     font-size: auto;
+    font-variant: small-caps;
     text-align: center;
-    padding: 10px;
+    padding-top: 50px;
     font-weight: bold;
 }
 
 header > p{
-    padding: 10px;
+    padding-bottom: 50px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 20px;
+    font-size: 14px;
 }
 
-header > p > a{
+a{
     text-decoration: none;
     color: white;
 }
 
-header > p > a:hover{
+a:hover{
     text-decoration: underline;
 }
 
 main{
     color: white;
+    line-height: 2em;
 }
 
-main > h2{
+section > p{
     font-family: "Sriracha", cursive;
     font-weight: 400;
     font-style: normal;
+
+    padding-left: 20px;
 }
 
-footer{
-    color: white;
-}
+
 
 #primeiro{
     background-color: white;
     color: black;
-    width: 500px;
-    padding-top: 40px;
+    
+    padding-top: 10vh;
+    padding-bottom: 10vh;
       
 }
 
 #fundo-01{
     background-image: url('imagens/background001.jpg');
     background-attachment: fixed;
-    padding: 10px;
+    background-size: cover;
+    background-position: center center;
+    
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 #segundo{
     background-color: black;
+
     color: white;
+
     width: 300px;
-    padding: 20px;
+
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+
     font-family: "Sriracha", cursive;
     font-weight: 400;
     font-style: normal;
+
+    border-radius: 10px;
 }
+
 
 #terceiro{
     color: black;
-    width: 400px;
+
+    background-color: white;
+
+    padding-top: 10vh;
+    padding-bottom:10vh ;
+}
+
+#fundo-02{
+    background-image: url(imagens/background002.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
 }
 
 #quarto{
     color: black;
     width: 400px;
+    
+    font-family: "Sriracha", cursive;
+    font-weight: 400;
+    font-style: normal;
+
+    padding-top: 10vh ;
+    padding-bottom: 10vh ;
 }
 
-#quinnto{
-    width: 400px;
+#quinto{
+    background-color: white;
+
     color: black;
+
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+footer{
+    color: white;
+
+    background-color: black;
+
+    text-align: center;
+
 }
