@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
 *{
     margin: 0px;
     padding: 0px;
@@ -19,18 +21,22 @@ header{
 }
 
 header > h1{
-    font-family: cursive, sans-serif;
-    font-size: auto;
+    font-family: "Passion One", sans-serif;
+    font-size: 10vw;
     font-variant: small-caps;
+
     text-align: center;
+
     padding-top: 50px;
+
     font-weight: bold;
 }
 
 header > p{
     padding-bottom: 50px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 14px;
+    font-family: "Passion One", sans-serif;
+    font-variant: small-caps;
+    font-size: 2.5vw;
 }
 
 a{
@@ -45,6 +51,8 @@ a:hover{
 main{
     color: white;
     line-height: 2em;
+    font-size: 3vw;
+    text-align: center;
 }
 
 section > p{
@@ -53,6 +61,7 @@ section > p{
     font-style: normal;
 
     padding-left: 20px;
+    
 }
 
 
@@ -70,27 +79,31 @@ section > p{
     background-image: url('imagens/background001.jpg');
     background-attachment: fixed;
     background-size: cover;
-    background-position: center center;
-    
+    background-position: right center;
+
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
 #segundo{
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.11);
 
     color: white;
+    text-shadow: 1px 1px 0px black;
 
-    width: 300px;
+    display: inline-block;
 
     padding-top: 10vh;
     padding-bottom: 10vh;
+    padding: 10px;
+
+    margin: 5px;
 
     font-family: "Sriracha", cursive;
     font-weight: 400;
     font-style: normal;
 
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 
@@ -107,12 +120,17 @@ section > p{
     background-image: url(imagens/background002.jpg);
     background-attachment: fixed;
     background-size: cover;
-    background-position: center center;
+    background-position: right bottom;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 #quarto{
-    color: black;
-    width: 400px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.219);
+    display: inline-block;
+    text-shadow: 1px 1px 0px black;
     
     font-family: "Sriracha", cursive;
     font-weight: 400;
@@ -120,6 +138,12 @@ section > p{
 
     padding-top: 10vh ;
     padding-bottom: 10vh ;
+    padding: 10px;
+    
+    margin: 5px;
+
+    border-radius: 10px;
+
 }
 
 #quinto{
@@ -137,5 +161,10 @@ footer{
     background-color: black;
 
     text-align: center;
+
+    padding: 10px;
+
+    font-size: 2vw;
+    font-family: "Passion One", sans-serif;
 
 }
