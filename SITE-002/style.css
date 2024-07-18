@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: white;
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header > h1{
+    font-family: cursive, sans-serif;
+    font-size: auto;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
+
+header > p{
+    padding: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+
+header > p > a{
+    text-decoration: none;
+    color: white;
+}
+
+header > p > a:hover{
+    text-decoration: underline;
+}
+
+main{
+    color: white;
+}
+
+main > h2{
+    font-family: "Sriracha", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+footer{
+    color: white;
+}
+
+#primeiro{
+    background-color: white;
+    color: black;
+    width: 500px;
+    padding-top: 40px;
+      
+}
+
+#fundo-01{
+    background-image: url('imagens/background001.jpg');
+    background-attachment: fixed;
+    padding: 10px;
+}
+
+#segundo{
+    background-color: black;
+    color: white;
+    width: 300px;
+    padding: 20px;
+    font-family: "Sriracha", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#terceiro{
+    color: black;
+    width: 400px;
+}
+
+#quarto{
+    color: black;
+    width: 400px;
+}
+
+#quinnto{
+    width: 400px;
+    color: black;
+}
