@@ -21,13 +21,29 @@ class Aluno
     puts "Sexo do Aluno é #{sexo}"
   end
 
+  def self.media(nota1, nota2)
+    media = (nota1+nota2)/2
+    media
+  end
+
+  def isAprovado(media)
+    if(media >= 7)
+      puts "Aprovado"
+    elsif(media <7 && media>=4)
+      puts "Prova final"
+    else
+      puts "Reprovado"
+    end
+  end
 end
 
-@@quantidade = 0;
+# @@quantidade = 0;
 
 a1 = Aluno::new(01,"Computação", "MT", "UESPI")
-quantidade+=1
+# quantidade+=1
 puts a1
 puts a1.curso
 a1.turno = "TN"
 puts a1.turno
+media = Aluno.media(10,8)
+puts a1.isAprovado(media)
