@@ -13,8 +13,8 @@ class Aluno
     "Matricula: #{@matricula}, Curso: #{@curso}, Turno: #{@turno}, Universidade: #{@universidade}"
   end
 
-  def reader (idade)
-    puts "Idade Aluno é #{idade}"
+  def reader_idade
+    puts "Idade Aluno é #{self.idade}"
   end
 
   def writter (sexo)
