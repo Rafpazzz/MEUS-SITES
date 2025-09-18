@@ -1,0 +1,2 @@
+module QualidadeHelper
+end
