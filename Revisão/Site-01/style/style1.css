@@ -1,0 +1,46 @@
+*{
+    background-color:rgb(0, 0, 0);
+    
+}
+
+
+h1{
+    color: antiquewhite;
+    position: relative;
+    text-align: center;
+    border: 4px outset aqua;
+    border-radius: 20px;
+
+    text-shadow: 10px 5px 7px red;
+}
+
+p{
+    color: white;
+    border: 5px solid;
+    border-color: brown ;
+    border-radius: 10px;
+}
+
+#p1{
+    color: aquamarine;
+}
+
+#p2{
+    color: yellow;
+}
+
+#p3{
+    color: orange;
+}
+
+#p4{
+    color: green;
+}
+
+.odd{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.even{
+    font-family: Arial, Helvetica, sans-serif;
+}
