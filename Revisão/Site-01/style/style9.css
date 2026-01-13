@@ -1,0 +1,60 @@
+#conteiner{
+    border: 3px solid hsl(240, 74%, 60%);
+    
+}
+
+#conteiner > p{
+    background-color: aquamarine;
+}
+
+p{
+    text-shadow: 3px 4px 9px;
+}
+
+#button{
+
+}
+
+a:link {
+    color: hsl(0, 67%, 45%);
+}
+
+a:hover{
+    color: hsl(253, 74%, 56%);
+    font-size: 1.1em;
+}
+
+a:active{
+    color: hsl(240, 100%, 60%);
+}
+
+a:visited{
+    color: rgb(90, 90, 90);
+}
+
+li{
+    background-color: lightgray;
+}
+
+li:nth-child(even) {
+    background-color: blueviolet;
+}
+
+li:hover{
+    background-color: hsl(60, 92%, 66%);
+} 
+
+#greeding p{
+    background-color: aqua;
+    padding: 10px;display: none;
+}
+
+#greeding:hover p{
+    display: block;
+}
+
+#greeding{
+    background-color: hsl(0, 2%, 67%);
+    width: 85px;
+    max-height: 20px;
+}

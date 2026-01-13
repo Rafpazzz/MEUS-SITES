@@ -1,0 +1,31 @@
+h1::first-letter{
+    font-size: 1.5em;
+    font-style: italic;
+}
+
+p::first-line{
+    background-color: #62b3ff;
+}
+
+p::selection{
+    color: green;
+    background-color: hsl(0, 1%, 33%);
+}
+
+
+#apple::after{
+    content: "🍎";
+}
+
+#orange::after{
+    content: "🍊";
+}
+
+#banana::after{
+    content: "🍌";
+}
+#fruit li::marker{
+    content: "✔";
+    color: hsl(120, 89%, 48%);
+    font-size: 1.7em;
+}
