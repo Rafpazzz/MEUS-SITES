@@ -1,0 +1,30 @@
+    body {
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-color: rgb(66, 66, 66);
+    }
+
+    #myButton {
+        font-size: 3em;
+        padding: 10px;
+        border-radius: 15px;
+        background-color: rgb(153, 153, 153);
+        color: rgb(194, 194, 194);
+        transition: background-color 0.35s;
+        cursor: pointer;
+    }
+
+    #myButton:hover {
+        background-color: rgb(34, 34, 34);
+    }
+
+    #myH2{
+        background-color: rgb(41, 41, 41);
+        max-width: 300px;
+        margin: auto;
+        margin-top: 10px;
+        padding: 10px;
+        border-radius: 15px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: hsl(0, 0%, 81%);
+    }
