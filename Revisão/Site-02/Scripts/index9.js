@@ -15,13 +15,13 @@ mySubmit.onclick = function () {
         subResult.textContent = `You are not Subscribe`;
     }
 
-    if(visaBtn.checked) {
+    if (visaBtn.checked) {
         paymentResult.textContent = `You are paying with Visa`;
-    }else if(mastercardBtn.checked) {
+    } else if (mastercardBtn.checked) {
         paymentResult.textContent = `You are paying with MasterCard`;
-    }else if(payPalBtn.checked) {
+    } else if (payPalBtn.checked) {
         paymentResult.textContent = `You are paying with Pay Pal`;
-    }else {
+    } else {
         paymentResult.textContent = `You must select a payment type`;
     }
 }

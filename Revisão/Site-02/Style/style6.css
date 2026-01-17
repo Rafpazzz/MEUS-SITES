@@ -1,0 +1,43 @@
+#box{
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 2px 3px 10px black;
+
+    width: 300px;
+    margin: auto;
+    padding: 20px;
+}
+
+
+#H4-1{
+    color: hsl(300, 51%, 46%);
+    font-family: Verdana, Geneva, Tahoma;
+
+}
+
+#temperature{
+    border: 2px solid black;
+    padding: 5px;
+    width: 100px;
+}
+
+.opt {
+    font-family: Verdana, Geneva, Tahoma;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+#submit {
+    width: 70px;
+    padding: 10px;
+    background-color: rgb(233, 47, 47);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma;
+}
+
+p{
+    text-align: center;
+    padding: 10px;
+    font-size: 1.2em;
+    font-family: Verdana, Geneva, Tahoma;
+}
