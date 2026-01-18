@@ -1,0 +1,31 @@
+body {
+    text-align: center;
+    background-color: aquamarine;
+    margin: auto;
+}
+
+h1{
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+}
+#name{
+    padding-top: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+
+}
+
+p {
+    text-align: center;
+    margin: auto;
+}
+
+#text {
+    border: none;
+    box-shadow: 2px 4px 10px black;
+    border-radius: 15px;
+    text-align: center;
+    width: 200px;
+
+}
