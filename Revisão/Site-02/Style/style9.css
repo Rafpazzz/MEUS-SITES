@@ -27,5 +27,20 @@ p {
     border-radius: 15px;
     text-align: center;
     width: 200px;
+    margin-top: 10px;
+    padding: 10px;
 
+    background-color: aliceblue;
+
+}
+
+#gere {
+    margin-top: 15px;
+    border-radius: 15px;
+    background-color: coral;
+    cursor: pointer;
+}
+
+#gere:hover{
+    background-color: rgb(241, 92, 38);
 }
