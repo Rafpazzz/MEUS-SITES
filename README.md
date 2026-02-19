@@ -1,29 +1,10 @@
-<<<<<<< HEAD
-# MEUS-SITES
- Sites para demosntração
-=======
-# README
+# Repositorio de Sites para demosntração
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Ambiente dedicado para desenvolvimento e aprendizagem para criação de sites
 
-Things you may want to cover:
+Stacks utilizadas
+ - Ruby on Rais
+ - HTML, CSS
+ - JavaScript
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
->>>>>>> 0a6eba0 (feature: criando primeiro projeto rails)
+Cada pasta contem um site e um periodo de desenvolvimento diferente, sendo mostrado a evolução dos meus conhecimentos
