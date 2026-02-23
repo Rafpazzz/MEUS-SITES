@@ -1,0 +1,46 @@
+.vite-card {
+  /* Cores e fundo */
+  background-color: #1e1e1e; /* Cor de fundo escura, ajuste se necessário */
+  
+  /* Bordas superior e inferior (as linhas horizontais) */
+  border-top: 1px solid #4a4a4a;
+  border-bottom: 1px solid #4a4a4a;
+  
+  /* Espaçamento e layout */
+  padding: 24px 0;
+  width: 100%;
+  max-width: 350px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: auto;
+  /* Fonte base (semelhante à da imagem) */
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+
+  border: solid transparent;
+  border-radius: 15px ;
+  display: grid;
+  place-items: center;
+}
+
+.vite-card-icon {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 24px; /* Espaço entre o ícone e o título */
+  
+}
+
+.vite-card-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #ffffff; /* Título em branco */
+  margin: 0;
+  margin-bottom: 5px; /* Espaço entre o título e a descrição */
+  margin-top: 15px;
+}
+
+.vite-card-subtitle {
+  font-size: 1rem;
+  color: #c7d2fe; /* Cor levemente azulada/cinza para a descrição */
+  margin: 0;
+}
